@@ -1,6 +1,6 @@
-# Angular 13 Examples
+# Angular 13 Prototype ESLint
 
-> An Angular starter kit featuring [Angular 13.3.3](https://angular.io), [Angular CLI 13.3.3](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 13.2.3](https://angular.io), [Angular CLI 13.2.4](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -19,14 +19,14 @@
 ```bash
 # select a repo
 # download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-examples.git
+git clone https://github.com/ganatan/angular-eslint.git
 
 # download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-examplesrototype.git
+git clone https://gitlab.com/ganatan/angular-eslint.git
 
 
 # change directory
-cd angular-examples
+cd angular-eslint
 
 # install the repo with npm
 npm install
@@ -47,15 +47,31 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run start`
 * in your browser [http://localhost:4200](http://localhost:4200) 
 
-## Linter
-* `npm run lint`
-
 ### Production 
 * `npm run build`
 
+## Linter
+* `npm run lint`
+
 ## Tests
 * `npm run test`
-* `npm run coverage`
 
 ### Author
 * Author  : danny
+
+
+
+ng add @angular-eslint/schematics
+ng lint ok
+
+
+dans eslintsrc.json
+      "rules": {
+        "no-var": "error",
+        "prefer-const": "error",
+        "func-names": "error",
+        "id-length": "error",
+        "newline-before-return": "error",
+        "space-before-blocks": "error",
+        "no-alert": "error",
+        "@angular-eslint/directive-selector": [

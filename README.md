@@ -1,6 +1,6 @@
-# Angular 13 Examples
+# Angular 14 Examples
 
-> An Angular starter kit featuring [Angular 13.3.3](https://angular.io), [Angular CLI 13.3.3](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 14.0.4](https://angular.io), [Angular CLI 14.0.4](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -27,6 +27,13 @@ git clone https://gitlab.com/ganatan/angular-examplesrototype.git
 
 # change directory
 cd angular-examples
+
+# select example
+cd example-charts
+  or
+cd example-components
+  or
+cd example-javascript
 
 # install the repo with npm
 npm install

@@ -1,0 +1,21 @@
+<div class="container py-5">
+  <div class="text-center">
+    <p class="text-center">example works!</p>
+
+    <p class="text-center">example label Component!</p>
+
+    <app-label></app-label>
+
+    <p class="text-center">example edit Component!</p>
+
+    <app-edit></app-edit>
+
+    <app-memo> </app-memo>
+    <app-memo [name]="'input02'"> </app-memo>
+    <app-memo [name]="input03"> </app-memo>
+
+
+    <app-button (selected)="onSelected($event)"> </app-button>
+    selected : {{ selected }}<br>
+  </div>
+</div>

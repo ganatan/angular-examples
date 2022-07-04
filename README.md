@@ -8,7 +8,7 @@
 <p align="center">
   <p align="center">
     <a href="https://angular.ganatan.com/">
-      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 13 Example 
+      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 14 Example 
       Application"/>
     </a>
   </p>
@@ -22,7 +22,7 @@
 git clone https://github.com/ganatan/angular-examples.git
 
 # download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-examplesrototype.git
+git clone https://gitlab.com/ganatan/angular-examples.git
 
 
 # change directory
